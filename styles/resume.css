@@ -6,3 +6,11 @@ body {
 header {
 	text-align: center;
 }
+
+h3 {
+    margin-top: inherit;
+}
+
+footer {
+    background-color: #000000;
+}
