@@ -13,14 +13,14 @@ body {
 	display: block;
 }
 
-#book {
+.book {
 	width: 110px;
 	height: 120px;
 	padding-bottom: 20px;
 	display: inline-block;
 }
 
-#book img {
+.book img {
     max-width: 100%;
     max-height: 100%;
     margin-left: auto;
@@ -28,7 +28,7 @@ body {
     display: block;
 }
 
-.active {
-	opacity: 0.8;
+img:hover {
     box-shadow: 8px 8px 8px #333333;
+    transform: scale(2);
 }
