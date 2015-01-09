@@ -1,8 +1,43 @@
+header {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+
 body {
 	font-family: 'Libre Baskerville', serif;
 	background-color: #fff;
 }
 
-header {
-	text-align: center;
+body > hr {
+	margin-top: 1px;
+	margin-bottom: 1px;	
+}
+
+.contact {
+	margin-top: 19px;
+}
+
+.education {
+	margin-bottom: 19px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+footer p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+a:link, a:visited {
+    color: auto;
+    text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
 }
