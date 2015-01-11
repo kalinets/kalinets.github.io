@@ -9,7 +9,7 @@ body {
 }
 
 #main {
-	margin: 56px 45px 200px 45px;
+	margin: 55px 45px 200px 45px;
 	width: 934px;
 	display: block;
 }
@@ -27,9 +27,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    box-shadow: 8px 0px 8px #333333;
 }
 
 img:hover {
-    box-shadow: 8px 8px 8px #333333;
-    transform: scale(1.5);
+    transform: scale(1.7);
 }
