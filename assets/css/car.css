@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Arial;
 }
 
 header {
@@ -16,8 +16,8 @@ header {
 .logo {
 	width: 150px;
 	height: 150px;
-	float: left;
-	margin: 0;
+	margin-left: auto;
+	margin-right: 0px;
 }
 
 .logo img {
@@ -25,12 +25,66 @@ header {
 	max-height: 100%;
 }
 
-header h1 {
-	text-align: right;
+.intro {
 	float: right;
-	color: #fff;
-	padding-top: 150px;
-	padding-right: 20px;
-	width: 400px;
-	text-shadow: 3px 3px 3px #000;
+	margin: 30px 30px 0 0;
+	color: white;
+	text-shadow: 3px 3px 4px #111;
+}
+
+article {
+	margin: 20px 10%;
+}
+
+article p {
+	margin: 10px 0;
+}
+
+article ul {
+	list-style: none;
+}
+
+.about {
+	padding: 10px 0;
+	border-bottom: 1px solid grey;
+}
+
+.specs {
+	width: 100%;
+	padding: 10px 0;
+	margin: auto 0;
+	border-bottom: 1px solid grey;
+}
+
+.block {
+	padding: 10px 0;
+	width: 49%;	
+	min-width: 330px;
+	display: inline-block;
+}
+
+.plans {
+	padding: 10px 0;
+	border-bottom: 1px solid grey;	
+}
+
+.pop {
+	padding: 10px 0;
+}
+
+footer {
+	border-top: 1px solid grey;	
+}
+
+footer ul {
+	list-style: none;
+	margin: 15px 10%;
+}
+
+footer ul li {
+	padding: 2px 0;
+}
+
+footer a {
+	text-decoration: none;
 }
