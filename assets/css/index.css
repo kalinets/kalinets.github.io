@@ -41,3 +41,14 @@ a:link, a:visited {
 ul {
 	list-style-type: none;
 }
+
+details {
+	padding: 5px 10px;
+	background-color: #fff;
+	color: #333;
+	border-radius: 3px;
+}
+
+aside p {
+	padding: 5px;
+}
