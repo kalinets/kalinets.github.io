@@ -1,17 +1,29 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #fff;
+  padding-top: 92px;
+  padding-bottom: 130px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 header {
   text-align: center;
   background-color: #333;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 30;
 }
 
-body {
-  font-family: 'Libre Baskerville', serif;
+main {
   background-color: #fff;
-}
-
-body > hr {
-  margin-top: 1px;
-  margin-bottom: 1px;
+  position: relative;
+  z-index: 20;
 }
 
 .contact {
@@ -26,6 +38,9 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
 }
 
 footer p {
@@ -33,20 +48,12 @@ footer p {
   margin-bottom: auto;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
 ul {
   list-style-type: none;
 }
 
-details {
-  padding: 5px 10px;
-  background-color: #fff;
-  color: #333;
-  border-radius: 3px;
+.details a {
+  color: deepskyblue;
 }
 
 aside p {
